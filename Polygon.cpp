@@ -150,7 +150,7 @@ Polygon Polygon::operator+(const Polygon& otherPoly)
     
     return polygon;
 }
-
+/*
 std::ostream& operator<<(std::ostream& os, const Polygon& other)
 {
     for(int i = 0; i < other.nrCounter; i++)
@@ -159,4 +159,4 @@ std::ostream& operator<<(std::ostream& os, const Polygon& other)
     }
 
     return os;
-}
+}*/
